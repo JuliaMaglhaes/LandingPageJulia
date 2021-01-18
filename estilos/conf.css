@@ -26,6 +26,15 @@
     --vermelho: #5c0014;  
 }
 
+strong{
+    color: var(--azul-escuro)
+    
+}
+
+hr{
+    min-width: 50%;
+    color: var(--azul-escuro)
+}
 *{
     margin:0;
     padding:0;
@@ -33,4 +42,18 @@
     list-style: none;
     text-decoration: none;
     scroll-behavior: smooth;
+
 }
+
+::-webkit-scrollbar {
+    width:10px;
+    height: 10px;
+    }
+     
+    ::-webkit-scrollbar-track {
+    background: var(--azul-escuro);
+    }
+
+    ::-webkit-scrollbar-thumb {
+    background:var(--azul);
+    }
