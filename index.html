@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <link href="//db.onlinewebfonts.com/c/55d433372d270829c51e2577a78ef12d?family=Monument+Extended" rel="stylesheet" type="text/css"/>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilos/conf.css">
+    <link rel="stylesheet" href="estilos/animacao.css">
+    <link rel="stylesheet" href="estilos/responsive.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="navbar-container">
+                <a href="" class="navbar-logo">&#60;/&#62;Portfólio</a>
+                <div class="navbar-toggle" id="menu-mobile">
+                    <span class="bar">Início</span>
+                    <span class="bar">Sobre</span>
+                    <span class="bar">Projetos</span>
+                    <span class="bar">Contato</span>
+                </div>
+                <ul class="navbar-men">
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#apresentacao">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <div class="banner" id="inicio">
+        <div class="coluna">
+            <div class="texto1">Olá, eu me chamo</div>
+            <div class="texto2" data-text="Júlia Magalhães">Júlia Magalhães</div>
+            <div class="texto3">e sou <span class="typing"></span></div>
+            <a class="btn" href="CurriculoJuliaMagalhaes.pdf"><span>BAIXAR CURRÍCULO</span>
+                <div class="liquido"></div>
+            </a>
+        </div>  
+    </div>
+<section class="sobre-mim" id="apresentacao">
+            <div class="sobre-mim-titulo">
+                <h1> Sobre mim </h1>
+            </div>
+            <div class="rolagem-sobre-mim">
+                <div>
+                    <br/><br/>
+                    <h2>  <i class="fas fa-user"></i> Apresentação </h2>
+                    <p> Meu nome é Júlia Magalhães, tenho 19 anos e moro em Piraí,
+                        uma cidade do interior do Rio de Janeiro. </br> </br>
+                        O meu sonho pela área de tecnologia começou quando eu ainda era criança.
+                        Sempre desmontava e montava meus brinquedos para entender como eles funcionavam. Logo, 
+                        em 2013, fui uma das escolhidas para cursar IT Essencials da
+                        Academia Cisco que tinha na cidade. </br> </br>
+                        Mesmo com a minha formação de docente durante o ensino médio, já tinha em
+                        mente a graduação que desejava seguir: Sistemas de Informação. Através do curso tive a
+                        oportunidade de escrever um artigo “Aprendizagem baseada em jogos” disponível na
+                        Revista UGB. Também, a oportunidade de participar da Inovasan – programa de
+                        educação empreendedora e inovação - com o projeto “Adote uma árvore”. </br> </br> 
+                        Quero participar de projetos que envolvam renovação, acessibilidade,
+                        criatividade e inovação. 
+                    </p>
+                </div>
+                <div>
+                    <br/><br/>
+                    <h2><i class="fas fa-graduation-cap"></i> Escolaridade</h2>
+                    <br/><br/>
+                    <p> <b>2013/2014</b> - <span>Cisco Academy</span>:
+                        <br/> <strong>Curso técnico em IT Essencials</strong> </br> </br> 
+                    <b>2016/2018</b> - <span>C. E. Affonsina Mazzillo Teixeira Campos</span>:
+                        <br/> <strong>Curso Normal - Formação de Professores</strong> </br> </br>
+                    <b>2019/2022</b> - <span>Centro Universitário Geraldo Di Biase</span>: 
+                        <br/> <strong>Bacharel em Sistemas de Informação</strong></br> </br>
+                    <br/>
+                </div>
+            </div>
+        </section> 
+        <div class="transicao-contato">
+            <h1 data-aos="fade-up">Skills</h1>
+            <div class="texto-contato">
+            </div>
+        </div>
+        <div class="skills" style="overflow: hidden;">
+            <div class="texto-skills" data-aos="fade-in">
+                <p>Esses são os conhecimentos específicos que possuo em determinadas áreas</p>
+            </div>
+            <div class="content" style="overflow: hidden;">
+                <div class="servicesBx" data-aos="fade-right">
+                    <img src="img/icon1.png" alt="">
+                    <h2> Web Design </h2>
+                    <p> Conhecimentos de Html5, CSS3, Javascript e Bootstrap. Além de saber utilizar ferramentas como Photoshop, Figma e Gimp</p>
+                </div>
+                <div class="servicesBx" data-aos="fade-up">
+                    <img src="img/icon2.png" alt="">
+                    <h2> Suporte técnico </h2>
+                    <p>Resolução de problemas e manutenção. Conhecimento sobre redes</p>
+                </div>
+                <div class="servicesBx" data-aos="fade-left">
+                    <img src="img/icon3.png" alt="">
+                    <h2> Desenvolvimento Web </h2>
+                    <p> Linguagens como Python, C#. Conhecimento sobre Asp.Net e framework Django</p>
+                </div>
+            </div>
+        </div>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#000" fill-opacity="1" d="M0,64L48,64C96,64,192,64,288,69.3C384,75,480,85,576,122.7C672,160,768,224,864,224C960,224,1056,160,1152,165.3C1248,171,1344,245,1392,282.7L1440,320L1440,0L1392,0C1344,0,1248,0,1152,0C1056,0,960,0,864,0C768,0,672,0,576,0C480,0,384,0,288,0C192,0,96,0,48,0L0,0Z"></path></svg>
+        <div class="transicao-projetos">
+            
+            <h1 data-aos="fade-up">Projetos</h1>
+            <div class="texto-projetos">
+                <!-- <h2 data-aos="fade-in">Projetos</h2> -->
+            </div>
+        </div>
+        <div class="opcoes" id="projetos"></div>
+            <div class="portfolioo">
+                <div class="portfolio">
+                   <center> <div class="caixa-texto">
+                        <p>Esses são os projetos mais recentes do meu portfólio. Confira
+                            outros acessando meu <a href="">Github</a>
+                        </p>
+                    </div></center>
+                    <ul data-aos="fade-in">
+                        <li class="lista active" data-filter="Tudo">Todos</li>
+                        <li class="lista" data-filter="sites">Sites</li>
+                        <li class="lista" data-filter="jogos">Jogos</li>
+                        <li class="lista" data-filter="design">Design</li>
+                        <li class="lista" data-filter="blog-wordpress">Blogger/Wordpress</li>
+                    </ul>
+                    <div class="produto">
+                            <div class="box jogos">
+                                <a href="">
+                                    <img src="img/flappy.png" alt="">
+                                </a>
+                            </div>
+                            <div class="box jogos">
+                                <a href="">
+                                    <img src="img/pedra-papel.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="box sites">
+                                <a href="">
+                                    <img src="img/consultoriosite.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="box design">
+                                <a href="">
+                                    <img src="img/arquitetura.PNG" alt="">
+                                </a>
+                            </div>
+                            <div class="box blog-wordpress">
+                                <a href="">
+                                    <img src="img/flappy.png" alt="">
+                                </a>
+                            </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="transicao-contato">
+                <h1 data-aos="fade-up">Contato</h1>
+                <div class="texto-contato">
+                </div>
+            </div>
+        <div class="contat" id="contato" style="overflow: hidden;">
+                <div class="content" style="overflow: hidden;">
+                    <div class="servicesBx" data-aos="fade-right">
+                        <i class="far fa-envelope"></i>
+                        <h2> Email </h2>
+                        <p> juliatorres203@gmail.com </p>
+                    </div>
+                    <div class="servicesBx" data-aos="fade-up">
+                        <i class="far fa-map"></i>
+                        <h2> Endereço </h2>
+                        <p> Piraí, RJ </p>
+                    </div>
+                    <div class="servicesBx" data-aos="fade-left">
+                        <i class="fab fa-whatsapp"></i>
+                        <h2> Celular </h2>
+                        <p> (24) 99294 0332 </p>
+                    </div>
+                </div>
+            </div>
+            
+            <footer class="footer">
+                <p>&#60;/&#62;Site por Júlia Magalhães  | (24) 992940332</p>
+            </footer> 
+
+            <!-- Scripts -->
+            <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+            <script>
+              AOS.init();
+            </script>
+
+    <script src='https://cdnjs.cloudflare.com/ajax/libs/parallax/3.1.0/parallax.min.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/ScrollMagic.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.6/plugins/debug.addIndicators.min.js"></script>
+    <script src="https://kit.fontawesome.com/2ff65cbf87.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
